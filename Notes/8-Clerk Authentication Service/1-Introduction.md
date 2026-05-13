@@ -23,6 +23,34 @@ With Clerk — all of this comes out of the box.
 
 ---
 
+## How can i build my `SignIn`
+
+![alt text](image.png)
+- Then follow the instructions
+- We can also sign in with username
+
+![alt text](image-1.png)
+
+### 1. Contact Information
+
+* **Email address**: Set to **Required**.
+* **Verification**: Users must verify their email at sign-up.
+* **Sign-in**: This field is used for signing in.
+
+### 2. Username
+
+* **Username**: Set to **Required**.
+* **Sign-in**: This field is also used for signing in.
+* **Uniqueness**: Each user must have a unique username.
+
+### 3. Disabled Options
+
+* **Phone number**: This option is currently turned **Off**.
+
+> **Note:** Because both Email and Username are marked as **Required**, new users will see two separate input fields during the sign-up process and must provide both to create an account.
+
+---
+
 ## How it Works in Next.js
 
 ### 1. Wrap your app with ClerkProvider

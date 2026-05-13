@@ -1,3 +1,4 @@
+import Sidebar from '@/components/shared/Sidebar';
 import React from 'react'
 
 const Layout = ({
@@ -7,6 +8,9 @@ const Layout = ({
 }>) => {
   return (
     <main className='root'>
+      {/* Sidebar */}
+      <Sidebar />
+      
       <div className='root-container'>
         <div className='wrapper'>
           {children}
